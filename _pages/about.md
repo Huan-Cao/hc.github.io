@@ -17,7 +17,16 @@ We are currently seeking highly motivated **Postdocs, Ph.D. students, Master's s
 
 Feel free to reach me at xxxxxxx
 
+Visit Us
+======
+Coordinates
+East campus of Sun Yat-sen University
+No. 132 Waihuandong Road, Panyu District, Guangzhou ([Google Map](https://maps.app.goo.gl/1SLHSUxp7wz71g5WA))
+中山大学东校区，光电材料与技术全国重点实验室
+大学城外环东路132号，番禺区，广州（[高德地图](https://surl.amap.com/jYvrosKm0Zh)）
 
+Affiliations
+State Key Laboratory of Optoelectronic Materials and Technologies, Sun Yat-sen University
 
 <!--Example: editing a Markdown file for a talk
 ![Editing a Markdown file for a talk](/images/editing-talk.png)-->
