@@ -3,7 +3,6 @@ title: "Toward an experimental device-independent verification of indefinite cau
 collection: publications
 category: manuscripts
 permalink: /publication/2026PRXQuantumToward
-excerpt: 'This paper is about the number 3. The number 4 is left for future work.'
 date: 2026-03-17
 venue: 'PRX Quantum'
 paperurl: 'https://doi.org/10.1103/5t2y-ddmt'
