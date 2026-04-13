@@ -1,8 +1,10 @@
 ---
-layout: archive
-title: "More"
 permalink: /more/
+title: "More"
 author_profile: true
+redirect_from: 
+  - /md/
+  - /more.html
 ---
 
 ## Teaching
