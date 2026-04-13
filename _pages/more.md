@@ -1,10 +1,8 @@
 ---
+layout: archive
+title: "Haha"
 permalink: /more/
-title: "More"
 author_profile: true
-redirect_from: 
-  - /md/
-  - /markdown.html
 ---
 
 ## Teaching
