@@ -1,6 +1,6 @@
 ---
-title: "Haha"
 permalink: /more/
+title: "Haha"
 author_profile: true
 ---
 
