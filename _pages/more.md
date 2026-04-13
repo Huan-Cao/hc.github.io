@@ -1,7 +1,7 @@
 ---
+permalink: /more/
 title: "Haha"
 layout: archive
-permalink: /more/
 author_profile: true
 ---
 
