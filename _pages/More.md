@@ -4,7 +4,7 @@ title: "More"
 author_profile: true
 redirect_from: 
   - /md/
-  - /more.html
+  - /markdown.html
 ---
 
 ## Teaching
