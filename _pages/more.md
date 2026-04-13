@@ -1,5 +1,4 @@
 ---
-layout: archive
 title: "Haha"
 permalink: /more/
 author_profile: true
