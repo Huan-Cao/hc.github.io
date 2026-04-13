@@ -9,12 +9,7 @@ author_profile: true
   <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
 {% endif %}
 
----
-layout: archive
-title: "Publications"
-permalink: /publications/
-author_profile: true
----
+
 
 {% include base_path %}
 
@@ -24,16 +19,23 @@ author_profile: true
   {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
   
   {% if year != written_year %}
-    ## {{ year }}
+    {% comment %} --- This part is the core for setting the font of the year information--- {% endcomment %}
+    <div style="font-size: 28px; font-weight: 800; color: #333; margin: 40px 0 10px 0; border-bottom: 2px solid #333;">
+      {{ year }}
+    </div>
     {% capture written_year %}{{ year }}{% endcapture %}
   {% endif %}
 
-  <div class="list__item">
-    <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+  <div class="list__item" style="margin-bottom: 20px;">
+    <article class="archive__item">
       <p>
-        <a href="{{ post.paperurl }}" rel="permalink"><strong>{{ post.title }}</strong></a><br>
-        {{ post.authors }}<br>
-        <i>{{ post.venue }}</i>, {{ post.date | date: '%Y' }}
+        <a href="{{ post.paperurl }}" style="text-decoration: none; font-size: 1.1em;">
+          <strong>{{ post.title }}</strong>
+        </a><br>
+        
+        <span style="color: #555;">{{ post.authors }}</span><br>
+        
+        <em style="color: #777;">{{ post.venue }}</em>, {{ year }}
       </p>
     </article>
   </div>
