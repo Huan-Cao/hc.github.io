@@ -10,7 +10,7 @@ author_profile: true
 * Laboratory: Quantum Optics, Universität Wien, Summer Semester 2025
 
 ## Professional Service
-* ## Journal Reviews:
+**Journal Reviews:**
   Physical Review Letters  
   Light Science & Applications  
   Physical Review Research  
