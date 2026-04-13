@@ -20,6 +20,6 @@ Feel free to reach me at xxxxxxx
 
 
 
-Example: editing a Markdown file for a talk
-![Editing a Markdown file for a talk](/images/editing-talk.png)
+‘Example: editing a Markdown file for a talk
+![Editing a Markdown file for a talk](/images/editing-talk.png)’
 
