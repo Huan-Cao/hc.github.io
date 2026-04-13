@@ -20,5 +20,5 @@ author_profile: true
   Entropy
 
 
-Consultant for Unitary Quantum Ltd.
+[Hefei Unitary Quantum Technology Co., Ltd. (合肥幺正量子科技有限公司)](https://www.unitqc.com/), Scientific Advisor, 2023
   
