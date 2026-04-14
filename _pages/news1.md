@@ -1,5 +1,5 @@
 ---
-permalink: /news/
+permalink: /news1/
 title: "News"
 layout: archive
 author_profile: true
