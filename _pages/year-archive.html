@@ -8,6 +8,7 @@ redirect_from:
   - /wordpress/blog-posts/
 ---
 
+<!--
 {% include base_path %}
 {% capture written_year %}'None'{% endcapture %}
 {% for post in site.posts %}
@@ -18,3 +19,32 @@ redirect_from:
   {% endif %}
   {% include archive-single.html %}
 {% endfor %}
+-->
+
+{% include base_path %}
+
+{% comment %} 使用 paginator.posts 替换 site.posts {% endcomment %}
+{% for post in paginator.posts %}
+  {% include archive-single.html %}
+{% endfor %}
+
+{% comment %} 添加分页导航按钮 {% endcomment %}
+{% if paginator.total_pages > 1 %}
+<nav class="pagination">
+  <ul>
+    {% if paginator.previous_page %}
+      <li><a href="{{ paginator.previous_page_path | relative_url }}">Previous</a></li>
+    {% else %}
+      <li><span class="disabled">Previous</span></li>
+    {% endif %}
+
+    <li class="page-info">Page {{ paginator.page }} of {{ paginator.total_pages }}</li>
+
+    {% if paginator.next_page %}
+      <li><a href="{{ paginator.next_page_path | relative_url }}">Next</a></li>
+    {% else %}
+      <li><span class="disabled">Next</span></li>
+    {% endif %}
+  </ul>
+</nav>
+{% endif %}
