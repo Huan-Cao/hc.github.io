@@ -5,8 +5,8 @@ layout: archive
 author_profile: true
 ---
 
-* hahah
-* hahahha
+* This is a test
+* This is also a test
 
 
   
