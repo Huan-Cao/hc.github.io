@@ -310,7 +310,7 @@ plugins:
   
 # 分页设置
 paginate: 3          # 每页显示的条目数，你可以改为 3 或 10
-paginate_path: "/blog/page:num/"  # 分页后的路径结构
+paginate_path: "/year-archive/page:num/"  # 分页后的路径结构
 
 # Plugins
 plugins:
