@@ -1,5 +1,5 @@
 ---
-title: "Quantum States of Light with Genuine Multipartite Entanglement"
+title: "Quantum States of Light with Genuine Multipartite correlations"
 excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
 collection: portfolio
 ---
