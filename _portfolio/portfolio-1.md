@@ -1,6 +1,5 @@
 ---
-title: "Quantum States of Light with Genuine Multipartite Entanglement<img width="432" height="51" alt="image" src="https://github.com/user-attachments/assets/1eee20ff-ad9f-4ccb-9194-f86e4d2add44" />
-"
+title: "Quantum States of Light with Genuine Multipartite Entanglement"
 excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
 collection: portfolio
 ---
