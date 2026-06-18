@@ -5,10 +5,24 @@ permalink: /portfolio/
 author_profile: true
 ---
 
+<!--
 {% include base_path %}
 
 
 {% for post in site.portfolio %}
   {% include archive-single.html %}
 {% endfor %}
+-->
 
+
+{% include base_path %}
+
+{% for post in site.portfolio %}
+  <div style="margin-bottom: 50px; border-bottom: 1px solid #eee; padding-bottom: 30px;">
+    <h2 style="color: #333; margin-bottom: 15px;">{{ post.title }}</h2>
+    
+    <div class="portfolio-content" style="line-height: 1.6; font-size: 1.05em; color: #444;">
+      {{ post.content }}
+    </div>
+  </div>
+{% endfor %}
